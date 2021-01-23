@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tokoyama/CLionProjects/DSALAB/Question C.h
+stdio.h
+-
+stdlib.h
+-
+memory.h
+-
+zconf.h
+-
+
+/home/tokoyama/CLionProjects/DSALAB/main.c
+stdio.h
+-
+stdlib.h
+-
+Question C.h
+/home/tokoyama/CLionProjects/DSALAB/Question C.h
+
