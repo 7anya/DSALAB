@@ -3,4 +3,4 @@ project(DSALAB C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(DSALAB main.c "Question I.h" "Question D.h" "Question H.h" "Question F.h" "Question C.h" "Question B.h" "Question A.h" "Question E.h" "Question G.h" "Question J.h")
+add_executable(DSALAB main.c "Assignment1/Question I.h" "Assignment1/Question D.h" "Assignment1/Question H.h" "Assignment1/Question F.h" "Assignment1/Question C.h" "Assignment1/Question B.h" "Assignment1/Question A.h" "Assignment1/Question E.h" "Assignment1/Question G.h" "Assignment1/Question J.h")
