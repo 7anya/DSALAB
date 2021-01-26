@@ -18,8 +18,9 @@ void check(int ind, int x) {
     if (x == 4) {
         if (fl == 0) {
             printf("YES\n");
+            fl=1;
         }
-        printf("%d ", ind - 3);
+
         return;
     }
     switch (x) {
@@ -62,10 +63,7 @@ void check(int ind, int x) {
 
 
 void baab() {
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
+
 
     scanf("%d\n", &n);
     scanf("%s", s);
@@ -90,7 +88,7 @@ void baab() {
     }
 
     if (!fl) {
-        printf("NO\n");
+        printf("hjsaNO\n");
     }
 
 

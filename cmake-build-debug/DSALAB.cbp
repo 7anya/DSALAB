@@ -96,10 +96,16 @@
 		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Question F.h">
 			<Option target="DSALAB"/>
 		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Question G.h">
+			<Option target="DSALAB"/>
+		</Unit>
 		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Question H.h">
 			<Option target="DSALAB"/>
 		</Unit>
 		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Question I.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Question J.h">
 			<Option target="DSALAB"/>
 		</Unit>
 		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/main.c">

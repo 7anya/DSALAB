@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Question C.h"
+#include "Question J.h"
 //#include "Question D.h"
 //#include "Question F.h"
 //#include "Question H.h"
@@ -28,7 +28,7 @@ int main() {
 
 //    Primes();
 //Palindrome();
-dinnerTable();
+//dinnerTable();
 //int c;
 //char s;
 //scanf("%c",&s);
@@ -38,6 +38,9 @@ dinnerTable();
 //printf("%c %d",s,c);
 //    return 0;
 
+//baab();
+solveJ();
+return 0;
 
 
 }

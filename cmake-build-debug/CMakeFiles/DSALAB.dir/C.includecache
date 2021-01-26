@@ -6,14 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/tokoyama/CLionProjects/DSALAB/Question C.h
+/home/tokoyama/CLionProjects/DSALAB/Question J.h
 stdio.h
 -
-stdlib.h
--
 memory.h
--
-zconf.h
 -
 
 /home/tokoyama/CLionProjects/DSALAB/main.c
@@ -21,6 +17,6 @@ stdio.h
 -
 stdlib.h
 -
-Question C.h
-/home/tokoyama/CLionProjects/DSALAB/Question C.h
+Question J.h
+/home/tokoyama/CLionProjects/DSALAB/Question J.h
 
