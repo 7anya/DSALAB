@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tokoyama/CLionProjects/DSALAB/Assignment1/Question J.h
+/home/tokoyama/CLionProjects/DSALAB/Assignment2/Question C.h
 stdio.h
 -
 memory.h
@@ -17,6 +17,6 @@ stdio.h
 -
 stdlib.h
 -
-Assignment1/Question J.h
-/home/tokoyama/CLionProjects/DSALAB/Assignment1/Question J.h
+Assignment2/Question C.h
+/home/tokoyama/CLionProjects/DSALAB/Assignment2/Question C.h
 

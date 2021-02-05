@@ -69,7 +69,29 @@ void push(struct Node **head_ref, int new_data) {
 
     (*head_ref) = new_node;
 }
+void INC()
+{
+    struct node *p = tail;
+    while(p != NULL && p->data == 1)
+    {
+        p->data = 0;
+        p = p->prev;
+    }
+    if(p != NULL)
+        p->data = 1;
+}
 
+void DEC()
+{
+    struct node *p = tail;
+    while(p != NULL && p->data == 0)
+    {
+        p->data = 1;
+        p = p->prev;
+    }
+    if(p != NULL)
+        p->data = 0;
+}
 
 void digital() {
     int bits;
@@ -108,8 +130,10 @@ void digital() {
             while (temp->next->next != NULL)
                 temp = temp->next;
             temp->next = NULL;
-        } else if (strcmp(s, "INC") == 0) { ;
-        } else { ;
+        } else if (strcmp(s, "INC") == 0) {
+            ;
+        } else {
+            ;
         }
         printLL(head);
     }

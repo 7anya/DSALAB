@@ -24,7 +24,7 @@ void DFS(int a[120][120], int start, int n) {
     }
 }
 
-int NumberOfConnectedComponents(int a[120][120], int n) {
+int findMax(int **a, int n) {
 
     int count = 0;
     for (int v = 0; v < n; v++)
@@ -108,7 +108,7 @@ void solveG() {
     }
     printf("The depth first traversal is:\n");
     DFS(adj, 0, n);
-    printf("\n %d", NumberOfConnectedComponents(adj, n));
+    printf("\n %d", findMax(adj, n));
 
 
 }
