@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "Assignment2/Question F.h"
+#include "Assignment2/Question H.h"
 //#include "Question D.h"
 //#include "Question F.h"
 //#include "Question H.h"
@@ -12,7 +12,7 @@ int main() {
 
 
 //baab();
-solveF();
+solveH();
 return 0;
 
 
