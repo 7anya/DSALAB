@@ -42,9 +42,9 @@ void solveH()
         level[rightChild(i)]=1+level[i];
 
     }
-    for (int i = 0; i < n; ++i) {
-        printf("%d ",level[i]);
-    }
+//    for (int i = 0; i < n; ++i) {
+//        printf("%d ",level[i]);
+//    }
     int s=0;
     for (int i = 0; i < n; ++i) {
         s+=a[i]*level[i];
