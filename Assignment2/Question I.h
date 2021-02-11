@@ -2,12 +2,19 @@
 // Created by tokoyama on 04/02/21.
 //
 
+#include <stdio.h>
+
 #ifndef DSALAB_QUESTION_I_H
 #define DSALAB_QUESTION_I_H
 
 #endif //DSALAB_QUESTION_I_H
 
-
+int fact(int n)
+{
+    if(n==0)
+        return 1;
+    return n*fact(n-1);
+}
 
 void solveI()
 {
@@ -20,9 +27,18 @@ void solveI()
     char s[100];
     for (int i = 0; i < n; ++i) {
         scanf("%s",s);
-        ch[s[0]-'a']++;
+        ch[s[0]-'A']++;
     }
+//    for (int i = 0; i < 26; ++i) {
+//        printf("%d ",ch[i]);
+//    }
+    int sum=0,ans[1000],x=0;
     for (int i = 0; i < 26; ++i) {
-        printf("%d ",ch[i]);
+        if(ch[i]>1)
+        sum+=( ch[i]%c*fact(ch[i]/c+1)+(c-ch[i]%c)*fact(ch[i]/c))/2;
+//        printf("\n%d",sum);
     }
+
+    printf("%d",sum);
+
 }

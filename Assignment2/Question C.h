@@ -31,7 +31,7 @@ void solveC()
 //        printf("%d %d \n",w[i],l[i]);
 
     }
-    if(ans[0]>ans[1])
+    if(w[ans[0]]>w[ans[1]])
     {
         printf("%d %d",ans[0],ans[1]);
 

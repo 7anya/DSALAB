@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /home/tokoyama/CLionProjects/DSALAB/Assignment2/Question I.h
+stdio.h
+-
 
 /home/tokoyama/CLionProjects/DSALAB/main.c
 stdio.h
