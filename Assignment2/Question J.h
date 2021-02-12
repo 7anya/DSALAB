@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define SIZE 100
 int visited[500], queue[100], qsize = 0, qlast = 0;
 
 
@@ -21,21 +20,16 @@ struct Graph {
 
 // BFS algorithm
 void bfs(struct Graph *graph, int startVertex, int endVertex) {
-//    struct queue* q = createQueue();
 
     graph->visited[startVertex] = 1;
     queue[qlast++] = startVertex;
     qsize++;
-    int distance[1000];
-
-    int vis, first = 0;
+    int distance[1000], first = 0;
     distance[startVertex] = 0;
     while (qsize != 0) {
-//        printQueue(q);
         int currentVertex = queue[first];
         first++;
         qsize--;
-//        printf("Visited %d\n", currentVertex);
 
         struct node *temp = graph->adjLists[currentVertex];
 
@@ -67,10 +61,8 @@ struct node *createNode(int v) {
 struct Graph *createGraph(int vertices) {
     struct Graph *graph = malloc(sizeof(struct Graph));
     graph->numVertices = vertices;
-
     graph->adjLists = malloc(vertices * sizeof(struct node *));
     graph->visited = malloc(vertices * sizeof(int));
-
     int i;
     for (i = 0; i < vertices; i++) {
         graph->adjLists[i] = NULL;
@@ -82,12 +74,9 @@ struct Graph *createGraph(int vertices) {
 
 // Add edge
 void addEdge(struct Graph *graph, int src, int dest) {
-    // Add edge from src to dest
     struct node *newNode = createNode(dest);
     newNode->next = graph->adjLists[src];
     graph->adjLists[src] = newNode;
-
-    // Add edge from dest to src
     newNode = createNode(src);
     newNode->next = graph->adjLists[dest];
     graph->adjLists[dest] = newNode;
