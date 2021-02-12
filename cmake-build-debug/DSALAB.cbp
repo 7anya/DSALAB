@@ -141,6 +141,30 @@
 		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment2/Question J.h">
 			<Option target="DSALAB"/>
 		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment3/ Question A.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment3/Question B.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment3/Question C.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment3/Question D.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment3/Question E.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment3/Question F.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment3/Question G.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment3/Question H.h">
+			<Option target="DSALAB"/>
+		</Unit>
 		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/main.c">
 			<Option target="DSALAB"/>
 		</Unit>
