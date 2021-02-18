@@ -6,9 +6,7 @@
 #define DSALAB_QUESTION_J_H
 
 #endif //DSALAB_QUESTION_J_H
-// C program for Kruskal's algorithm to find Minimum
-// Spanning Tree of a given connected, undirected and
-// weighted graph
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -26,11 +24,13 @@ struct Graph {
 
 
 struct Graph *createGraph(int V, int E) {
-    struct Graph *graph = new Graph;
+    struct Graph *graph = (struct Graph *) malloc(V * sizeof(struct Graph));
+
     graph->V = V;
     graph->E = E;
 
-    graph->edge = new Edge[E];
+    graph->edge =(struct Edge *) malloc(E * sizeof(struct Edge));
+
 
     return graph;
 }
@@ -47,8 +47,7 @@ int find(struct subset subsets[], int i) {
     // find root and make root as parent of i
     // (path compression)
     if (subsets[i].parent != i)
-        subsets[i].parent
-                = find(subsets, subsets[i].parent);
+        subsets[i].parent = find(subsets, subsets[i].parent);
 
     return subsets[i].parent;
 }
@@ -99,8 +98,7 @@ void KruskalMST(struct Graph *graph) {
           myComp);
 
     // Allocate memory for creating V ssubsets
-    struct subset *subsets
-            = (struct subset *) malloc(V * sizeof(struct subset));
+    struct subset *subsets = (struct subset *) malloc(V * sizeof(struct subset));
 
     // Create V subsets with single elements
     for (int v = 0; v < V; ++v) {
@@ -129,15 +127,14 @@ void KruskalMST(struct Graph *graph) {
 
     // print the contents of result[] to display the
     // built MST
-    printf(
-            "Following are the edges in the constructed MST\n");
+
     int minimumCost = 0;
     for (i = 0; i < e; ++i) {
-        printf("%d -- %d == %d\n", result[i].src,
-               result[i].dest, result[i].weight);
+        // printf("%d -- %d == %d\n", result[i].src,
+        //        result[i].dest, result[i].weight);
         minimumCost += result[i].weight;
     }
-    printf("Minimum Cost Spanning tree : %d", minimumCost);
+    printf("%d", minimumCost);
 
 }
 
@@ -154,9 +151,9 @@ void solveJ() {
         scanf("%d",&src);
         scanf("%d",&dest);
         scanf("%d",&weight);
-        graph->edge[0].src = src;
-        graph->edge[0].dest = dest;
-        graph->edge[0].weight =weight;
+        graph->edge[i].src = src;
+        graph->edge[i].dest = dest;
+        graph->edge[i].weight =weight;
 
 
     }
