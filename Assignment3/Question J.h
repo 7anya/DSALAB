@@ -118,7 +118,7 @@ void KruskalMST(struct Graph *graph) {
 
 
 
-int main() {
+void solveJ() {
 
     int V ;
     int E;
@@ -134,11 +134,11 @@ int main() {
         graph->edge[i].dest = dest;
         graph->edge[i].weight =weight;
 
-
+    // done
     }
 
 
     KruskalMST(graph);
 
-    return 0;
+//    return 0;
 }
