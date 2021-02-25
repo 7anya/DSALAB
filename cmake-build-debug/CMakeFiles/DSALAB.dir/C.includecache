@@ -11,6 +11,8 @@ stdio.h
 -
 stdlib.h
 -
+zconf.h
+-
 
 /home/tokoyama/CLionProjects/DSALAB/main.c
 stdio.h
