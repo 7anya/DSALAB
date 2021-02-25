@@ -6,3 +6,12 @@
 #define DSALAB_QUESTION_F_H
 
 #endif //DSALAB_QUESTION_F_H
+
+
+
+
+
+void solve()
+{
+
+}

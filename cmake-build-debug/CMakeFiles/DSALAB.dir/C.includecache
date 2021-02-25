@@ -6,12 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/home/tokoyama/CLionProjects/DSALAB/Assignment 4/Question B.h
+/home/tokoyama/CLionProjects/DSALAB/Assignment 4/Question G.h
+stdbool.h
+-
+memory.h
+-
 stdio.h
--
-stdlib.h
--
-zconf.h
 -
 
 /home/tokoyama/CLionProjects/DSALAB/main.c
@@ -19,6 +19,6 @@ stdio.h
 -
 stdlib.h
 -
-Assignment 4/Question B.h
-/home/tokoyama/CLionProjects/DSALAB/Assignment 4/Question B.h
+Assignment 4/Question G.h
+/home/tokoyama/CLionProjects/DSALAB/Assignment 4/Question G.h
 
