@@ -38,4 +38,5 @@ void solve()
             printf("NO\n");
     }
 
+
 }
