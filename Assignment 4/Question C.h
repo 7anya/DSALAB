@@ -131,7 +131,7 @@ bool noSameLetter(char a[], char b[]) {
 }
 
 void solve() {
-    int n, m, t, s;
+    int n;
     scanf("%d", &n);
     n++;
 
