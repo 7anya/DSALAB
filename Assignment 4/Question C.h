@@ -38,6 +38,9 @@ int bfs(struct Graph *graph, int startVertex, int endVertex) {
     queue[qlast++] = startVertex;
     qsize++;
     int distance[1000], first = 0;
+//    for (int i = 0; i < 1000; ++i) {
+//        distance[i]=-1;
+//    }
     distance[startVertex] = 0;
     while (qsize != 0) {
         int currentVertex = queue[first];
@@ -105,7 +108,7 @@ bool oneLetterDifference(char a[],char b[])
         if(a[i]==b[i])
             c++;
     }
-    if(c==1)
+    if(n1-c==1)
         return true;
     else
         return false;
@@ -128,32 +131,42 @@ bool noSameLetter(char a[],char b[])
 void solve() {
     int n, m, t, s;
     scanf("%d", &n);
-
+    n++;
 
     struct Graph *graph = createGraph(n);
     char words[1000][12];
     for (int i = 0; i < n; ++i) {
         scanf("%s",words[i]);
     }
+//    printf("%d\n ",oneLetterDifference(words[0],words[1]));
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
-            if(oneLetterDifference(words[i],words[j]))
+            if(oneLetterDifference(words[i],words[j])==true) {
                 addEdge(graph, i, j);
+//                printf("%s and %s are connected by %d %d\n ",words[i],words[j],i,j);
+            }
 
         }
     }
     int arr[1000],k=0;
     for (int i = 0; i < n; ++i) {
-        if(noSameLetter(words[0],words[i]))
-            arr[k++]=i;
+        if(noSameLetter(words[0],words[i])==true) {
+            arr[k++] = i;
+//            printf("%s ",words[i]);
+        }
+//        printf("%s ",words[i]);
     }
     int min=INT_MAX;
     for (int i = 0; i < k; ++i) {
-        int x=bfs(graph,0,arr[i]);
+        int x=bfs(graph,0,arr[i])-1;
+//        printf("%d ",x);
         if(min>x)
             min=x;
     }
+    if(min>0)
     printf("%d",min);
+    else
+        printf("-1");
 
 }
 
