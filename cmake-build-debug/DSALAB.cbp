@@ -78,6 +78,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment 4/Question A.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment 4/Question B.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment 4/Question D.h">
+			<Option target="DSALAB"/>
+		</Unit>
 		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment0/Question A.h">
 			<Option target="DSALAB"/>
 		</Unit>

@@ -46,7 +46,6 @@ int findMax(int **a, int n) {
     return max;
 }
 
-
 void solveB() {
 
 
