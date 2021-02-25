@@ -115,6 +115,7 @@ bool oneLetterDifference(char a[], char b[]) {
 
 }
 
+
 bool noSameLetter(char a[], char b[]) {
 
     int n1 = strlen(a);
