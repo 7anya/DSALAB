@@ -67,7 +67,7 @@ void solve ()
     }
     bubbleSort(a, n);
 //    printf("Sorted array: \n");
-//    printArray(arr, n);
+//    printArray(array, n);
     printf("%d",c);
 //    return 0;
 }

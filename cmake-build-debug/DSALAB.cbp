@@ -78,6 +78,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment 10/B.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment 10/C.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment 10/D.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment 10/E.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment 10/G.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment 10/H.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment 10/I.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment 10/eee.h">
+			<Option target="DSALAB"/>
+		</Unit>
 		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment 4/Question A.h">
 			<Option target="DSALAB"/>
 		</Unit>
@@ -199,6 +223,63 @@
 			<Option target="DSALAB"/>
 		</Unit>
 		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment3/Question J.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment5/A.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment5/B.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment5/C.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment5/D.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment5/E.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment5/F.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment5/G.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment5/H.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment5/I.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment5/J.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment7/A.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Assignment7/B.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Code snippets for lab exam/BFSTree.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Code snippets for lab exam/Graph.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Code snippets for lab exam/doublyLinkedList.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Code snippets for lab exam/maxHeap.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Code snippets for lab exam/minHeap.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Code snippets for lab exam/singlyLinkedList.h">
+			<Option target="DSALAB"/>
+		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Code snippets for lab exam/tree.h">
 			<Option target="DSALAB"/>
 		</Unit>
 		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/main.c">

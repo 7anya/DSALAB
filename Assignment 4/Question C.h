@@ -18,16 +18,16 @@
 int visited[500], queue[100], qsize = 0, qlast = 0;
 
 
-struct node {
+struct Node {
     int vertex;
-    struct node *next;
+    struct Node *next;
 };
 
-struct node *createNode(int);
+struct Node *createNode(int);
 
 struct Graph {
     int numVertices;
-    struct node **adjLists;
+    struct Node **adjLists;
     int *visited;
 };
 
@@ -47,7 +47,7 @@ int bfs(struct Graph *graph, int startVertex, int endVertex) {
         first++;
         qsize--;
 
-        struct node *temp = graph->adjLists[currentVertex];
+        struct Node *temp = graph->adjLists[currentVertex];
 
         while (temp) {
             int adjVertex = temp->vertex;
@@ -65,9 +65,9 @@ int bfs(struct Graph *graph, int startVertex, int endVertex) {
     return distance[endVertex];
 }
 
-// Creating a node
-struct node *createNode(int v) {
-    struct node *newNode = malloc(sizeof(struct node));
+// Creating a Node
+struct Node *createNode(int v) {
+    struct Node *newNode = malloc(sizeof(struct Node));
     newNode->vertex = v;
     newNode->next = NULL;
     return newNode;
@@ -77,7 +77,7 @@ struct node *createNode(int v) {
 struct Graph *createGraph(int vertices) {
     struct Graph *graph = malloc(sizeof(struct Graph));
     graph->numVertices = vertices;
-    graph->adjLists = malloc(vertices * sizeof(struct node *));
+    graph->adjLists = malloc(vertices * sizeof(struct Node *));
     graph->visited = malloc(vertices * sizeof(int));
     int i;
     for (i = 0; i < vertices; i++) {
@@ -90,7 +90,7 @@ struct Graph *createGraph(int vertices) {
 
 // Add edge
 void addEdge(struct Graph *graph, int src, int dest) {
-    struct node *newNode = createNode(dest);
+    struct Node *newNode = createNode(dest);
     newNode->next = graph->adjLists[src];
     graph->adjLists[src] = newNode;
     newNode = createNode(src);

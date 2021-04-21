@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/tokoyama/CLionProjects/DSALAB/Assignment 4/Question J.h
-stdbool.h
--
-memory.h
--
-
 /home/tokoyama/CLionProjects/DSALAB/main.c
 stdio.h
 -
 stdlib.h
 -
-Assignment 4/Question J.h
-/home/tokoyama/CLionProjects/DSALAB/Assignment 4/Question J.h
+string.h
+-
 

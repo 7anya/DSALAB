@@ -11,8 +11,8 @@
 
 struct Node {
     char data;
-    struct Node *next; // Pointer to next node in DLL
-    struct Node *prev; // Pointer to previous node in DLL
+    struct Node *next; // Pointer to next Node in DLL
+    struct Node *prev; // Pointer to previous Node in DLL
 };
 
 void push(struct Node **head_ref, char new_data) {
