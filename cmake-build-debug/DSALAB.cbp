@@ -282,6 +282,9 @@
 		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Code snippets for lab exam/tree.h">
 			<Option target="DSALAB"/>
 		</Unit>
+		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/Code snippets for lab exam/treebuildfrominorder.h">
+			<Option target="DSALAB"/>
+		</Unit>
 		<Unit filename="/home/tokoyama/CLionProjects/DSALAB/main.c">
 			<Option target="DSALAB"/>
 		</Unit>
