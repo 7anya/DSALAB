@@ -16,6 +16,7 @@ struct node {
 
 };
 
+
 struct node* addNewNode(char i[]) {
     struct node *node = (struct node *) malloc(sizeof(struct node));
     strcpy(node->data,i);
